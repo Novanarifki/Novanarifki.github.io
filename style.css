@@ -14,14 +14,14 @@ section {
 /* My Keyboard Section */
 .keyboard-box {
   position: relative;
-  background-color: #300cfd;
+  background-color: #0c6efd;
   border-radius: 10px;
   height: 500px;
   transform-style: preserve-3d;
 }
 
 .keyboard-box::before {
-  content: 'MY';
+  content: "MY";
   position: absolute;
   color: #fff;
   font-size: 6em;
@@ -39,7 +39,7 @@ section {
 }
 
 .keyboard-box::after {
-  content: 'KEYBOARD';
+  content: "KEYBOARD";
   position: absolute;
   color: #fff;
   font-size: 4.3em;
